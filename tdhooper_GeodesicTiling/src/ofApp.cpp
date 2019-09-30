@@ -5,6 +5,7 @@ void ofApp::setup(){
     shadertoy.load("shaders/tdhooper_GeodesicTiling.glsl");
     ofSetFrameRate(60);
     shadertoy.setAdvanceTime(true);
+    shadertoy.setUseMouse(true);
 }
 
 //--------------------------------------------------------------
